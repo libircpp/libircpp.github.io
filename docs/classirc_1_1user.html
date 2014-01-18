@@ -161,8 +161,15 @@ template&lt;typename F &gt; </div>
 </div><div class="memdoc">
 
 <p>connect to the on_channel_message signal </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>the function to callback.</td></tr>
+  </table>
+  </dd>
+</dl>
 <p>This signal is triggered when ever the user has sent a channel a private message, the format of the callback is:</p>
-<div class="fragment"></div><!-- fragment --> <dl class="section return"><dt>Returns</dt><dd>the connection object to disconnect from the signal </dd></dl>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(irc::channel&amp;, <a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp;) </div>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>the connection object to disconnect from the signal </dd></dl>
 
 </div>
 </div>
@@ -198,6 +205,7 @@ template&lt;typename F &gt; </div>
 </div><div class="memdoc">
 
 <p>const version </p>
+<dl class="section return"><dt>Returns</dt><dd>the mode block </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classirc_1_1user.html#a72a97a7dfa9b971fa73b3709bf037165" title="returns the mode block for this user ">get_modes</a> </dd></dl>
 
 </div>
@@ -245,7 +253,7 @@ template&lt;typename F &gt; </div>
   <ul>
     <li class="navelem"><b>irc</b></li><li class="navelem"><a class="el" href="classirc_1_1user.html">user</a></li>
     <li class="footer">
-    	Generated on Sat Jan 18 2014 19:40:06 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Sat Jan 18 2014 19:54:42 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>
