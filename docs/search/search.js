@@ -7,18 +7,24 @@
 
 var indexSectionsWithContent =
 {
-  0: "cdgu",
+  0: "cdegiru",
   1: "u",
-  2: "cg",
-  3: "d"
+  2: "i",
+  3: "cg",
+  4: "c",
+  5: "er",
+  6: "d"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "functions",
-  3: "pages"
+  2: "namespaces",
+  3: "functions",
+  4: "enums",
+  5: "enumvalues",
+  6: "pages"
 };
 
 function convertToId(search)

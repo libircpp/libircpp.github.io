@@ -56,6 +56,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -102,7 +103,7 @@ $(document).ready(function(){initNavTree('classirc_1_1user.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -142,6 +143,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45ee16da7ffd9dc6e7a2d890b67f7613"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#a45ee16da7ffd9dc6e7a2d890b67f7613">connect_on_channel_message</a> (F &amp;&amp;f)</td></tr>
 <tr class="memdesc:a45ee16da7ffd9dc6e7a2d890b67f7613"><td class="mdescLeft">&#160;</td><td class="mdescRight">connect to the on_channel_message signal  <a href="#a45ee16da7ffd9dc6e7a2d890b67f7613">More...</a><br/></td></tr>
 <tr class="separator:a45ee16da7ffd9dc6e7a2d890b67f7613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab62cef700d4315f7be420f1619070f00"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:ab62cef700d4315f7be420f1619070f00"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#ab62cef700d4315f7be420f1619070f00">connect_on_direct_message</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:ab62cef700d4315f7be420f1619070f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">connect to the on_direct_message signal  <a href="#ab62cef700d4315f7be420f1619070f00">More...</a><br/></td></tr>
+<tr class="separator:ab62cef700d4315f7be420f1619070f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898b292361ae83b8802af909c355f1a3"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a898b292361ae83b8802af909c355f1a3"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#a898b292361ae83b8802af909c355f1a3">connect_on_nick_change</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a898b292361ae83b8802af909c355f1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">connect to the on_nick_change signal  <a href="#a898b292361ae83b8802af909c355f1a3">More...</a><br/></td></tr>
+<tr class="separator:a898b292361ae83b8802af909c355f1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78193110b7b9192f14dc6b1a3a070a75"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a78193110b7b9192f14dc6b1a3a070a75"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#a78193110b7b9192f14dc6b1a3a070a75">connect_on_notice</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a78193110b7b9192f14dc6b1a3a070a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">connect to the on_notice signal  <a href="#a78193110b7b9192f14dc6b1a3a070a75">More...</a><br/></td></tr>
+<tr class="separator:a78193110b7b9192f14dc6b1a3a070a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a45ee16da7ffd9dc6e7a2d890b67f7613"></a>
@@ -168,7 +181,94 @@ template&lt;typename F &gt; </div>
   </dd>
 </dl>
 <p>This signal is triggered when ever the user has sent a channel a private message, the format of the callback is:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(irc::channel&amp;, <a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp;) </div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(irc::channel&amp;, <a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp; msg) </div>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>the connection object to disconnect from the signal </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab62cef700d4315f7be420f1619070f00"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::user::connect_on_direct_message </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>connect to the on_direct_message signal </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>the function to callback.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>this signal is triggered when ever the user has sent a private message directly to you</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(<a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp; msg) </div>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>the connection object to disconnect from the signal </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a898b292361ae83b8802af909c355f1a3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::user::connect_on_nick_change </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>connect to the on_nick_change signal </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>the function to callback.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>this signal is triggered when ever this users nick has been changed</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(<a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp; new_nick) </div>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>the connection object to disconnect from the signal </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a78193110b7b9192f14dc6b1a3a070a75"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::user::connect_on_notice </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>connect to the on_notice signal </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>the function to callback.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>this signal is triggered when ever this users nick has sent you a notice</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(<a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp; notice) </div>
 </div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>the connection object to disconnect from the signal </dd></dl>
 
 </div>
@@ -251,9 +351,9 @@ template&lt;typename F &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>irc</b></li><li class="navelem"><a class="el" href="classirc_1_1user.html">user</a></li>
+    <li class="navelem"><a class="el" href="namespaceirc.html">irc</a></li><li class="navelem"><a class="el" href="classirc_1_1user.html">user</a></li>
     <li class="footer">
-    	Generated on Sat Jan 18 2014 19:56:56 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Sat Jan 18 2014 20:14:34 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>

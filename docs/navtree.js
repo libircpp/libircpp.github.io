@@ -2,6 +2,14 @@ var NAVTREE =
 [
   [ "libircpp", "index.html", [
     [ "Documentation", "index.html", null ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
+      ] ]
+    ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
       [ "Class Index", "classes.html", null ],
@@ -15,7 +23,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-".html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
