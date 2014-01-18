@@ -1,4 +1,4 @@
-libircpp.github.io
-==================
+## Static website content repository ##
 
-libircpp website repository.
+Generated files from [main project repository](https://github.com/libircpp/libircpp) with doxygen
+for the [project documentation page](http://libircpp.github.io/docs/index.html).
