@@ -1,5 +1,7 @@
 var classirc_1_1user =
 [
+    [ "user", "classirc_1_1user.html#aca910d0405a76e15e5b5df163fc9aed8", null ],
+    [ "user", "classirc_1_1user.html#ab4f3ad75658d633b1e8c3fc3d3bd0a8a", null ],
     [ "connect_on_channel_message", "classirc_1_1user.html#a45ee16da7ffd9dc6e7a2d890b67f7613", null ],
     [ "connect_on_direct_message", "classirc_1_1user.html#ab62cef700d4315f7be420f1619070f00", null ],
     [ "connect_on_nick_change", "classirc_1_1user.html#a898b292361ae83b8802af909c355f1a3", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['make_5fshared',['make_shared',['../classirc_1_1connection.html#a43bb51bf9b1691f8708273bb7852a778',1,'irc::connection']]]
+  ['list_5fusers',['list_users',['../classirc_1_1channel.html#aeab87dc9a00dd7e3d99e2ad64cf91f84',1,'irc::channel']]]
 ];

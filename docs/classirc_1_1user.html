@@ -128,6 +128,12 @@ $(document).ready(function(){initNavTree('classirc_1_1user.html','');});
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aca910d0405a76e15e5b5df163fc9aed8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#aca910d0405a76e15e5b5df163fc9aed8">user</a> (std::string nick_)</td></tr>
+<tr class="memdesc:aca910d0405a76e15e5b5df163fc9aed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#aca910d0405a76e15e5b5df163fc9aed8">More...</a><br/></td></tr>
+<tr class="separator:aca910d0405a76e15e5b5df163fc9aed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f3ad75658d633b1e8c3fc3d3bd0a8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#ab4f3ad75658d633b1e8c3fc3d3bd0a8a">user</a> (std::string nick_, <a class="el" href="structirc_1_1prefix.html">prefix</a> pfx_)</td></tr>
+<tr class="memdesc:ab4f3ad75658d633b1e8c3fc3d3bd0a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ab4f3ad75658d633b1e8c3fc3d3bd0a8a">More...</a><br/></td></tr>
+<tr class="separator:ab4f3ad75658d633b1e8c3fc3d3bd0a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbc5e5fe1a9537dbc7a98f8b2fd329c6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#abbc5e5fe1a9537dbc7a98f8b2fd329c6">get_nick</a> () const </td></tr>
 <tr class="memdesc:abbc5e5fe1a9537dbc7a98f8b2fd329c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the nick for this user  <a href="#abbc5e5fe1a9537dbc7a98f8b2fd329c6">More...</a><br/></td></tr>
 <tr class="separator:abbc5e5fe1a9537dbc7a98f8b2fd329c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +163,66 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a78193110b7b9192f14dc6b1a3a070a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">connect to the on_notice signal  <a href="#a78193110b7b9192f14dc6b1a3a070a75">More...</a><br/></td></tr>
 <tr class="separator:a78193110b7b9192f14dc6b1a3a070a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="aca910d0405a76e15e5b5df163fc9aed8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">irc::user::user </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nick_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nick_</td><td>The user nickname. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab4f3ad75658d633b1e8c3fc3d3bd0a8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">irc::user::user </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>nick_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structirc_1_1prefix.html">prefix</a>&#160;</td>
+          <td class="paramname"><em>pfx_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nick_</td><td>The user nickname. </td></tr>
+    <tr><td class="paramname">pfx_</td><td>The user hostmask. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a45ee16da7ffd9dc6e7a2d890b67f7613"></a>
 <div class="memitem">
@@ -354,7 +420,7 @@ template&lt;typename F &gt; </div>
   <ul>
     <li class="navelem"><a class="el" href="namespaceirc.html">irc</a></li><li class="navelem"><a class="el" href="classirc_1_1user.html">user</a></li>
     <li class="footer">
-    	Generated on Sun Jan 19 2014 20:01:57 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Sun Jan 19 2014 21:32:58 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>

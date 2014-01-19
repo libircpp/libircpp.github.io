@@ -99,10 +99,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_e"><span>e</span></a></li>
       <li><a href="#index_g"><span>g</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
       <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
-      <li class="current"><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li class="current"><a href="#index_u"><span>u</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -138,6 +141,12 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>add_modes()
+: <a class="el" href="classirc_1_1channel.html#aad43860738dd8009333f9f75c07f2567">irc::channel</a>
+</li>
+<li>add_user()
+: <a class="el" href="classirc_1_1channel.html#ae7f7fdbb724221ef9cfb52f67e2168fb">irc::channel</a>
+</li>
 <li>async_change_nick()
 : <a class="el" href="classirc_1_1session.html#ad07cd7272dbc457dc220ba27501075e1">irc::session</a>
 </li>
@@ -151,8 +160,14 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>async_privmsg()
 : <a class="el" href="classirc_1_1session.html#aecdd4dc7740ec3afb02c20baa911e52f">irc::session</a>
 </li>
+<li>async_read()
+: <a class="el" href="classirc_1_1connection.html#a9b4ee90c93f187eba517ebf248d40d49">irc::connection</a>
+</li>
 <li>async_send_message()
 : <a class="el" href="classirc_1_1channel.html#aeee83f7306ccc09d94a85b525fae4a72">irc::channel</a>
+</li>
+<li>async_write()
+: <a class="el" href="classirc_1_1connection.html#a9e0674375ddb35c58c2a62ea2a8d9a17">irc::connection</a>
 </li>
 </ul>
 
@@ -178,14 +193,29 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>connect_on_channel_message()
 : <a class="el" href="classirc_1_1user.html#a45ee16da7ffd9dc6e7a2d890b67f7613">irc::user</a>
 </li>
+<li>connect_on_channel_part()
+: <a class="el" href="classirc_1_1channel.html#a45f3bfeca917076d3004b40af9a3603e">irc::channel</a>
+</li>
+<li>connect_on_connect()
+: <a class="el" href="classirc_1_1connection.html#af4910b55cf79cc895c593a3a4a43daff">irc::connection</a>
+</li>
 <li>connect_on_direct_message()
 : <a class="el" href="classirc_1_1user.html#ab62cef700d4315f7be420f1619070f00">irc::user</a>
 </li>
 <li>connect_on_join_channel()
 : <a class="el" href="classirc_1_1session.html#af360d45689d589048332dfcd9448c3e5">irc::session</a>
 </li>
+<li>connect_on_list_users()
+: <a class="el" href="classirc_1_1channel.html#aed32f3fd4ed56dee4ea4f44d4260bf6e">irc::channel</a>
+</li>
+<li>connect_on_message()
+: <a class="el" href="classirc_1_1channel.html#a1f14099c784839702bc4cf08e9a0bee9">irc::channel</a>
+</li>
 <li>connect_on_motd()
 : <a class="el" href="classirc_1_1session.html#a5962025c6b3e23557caae1081711816b">irc::session</a>
+</li>
+<li>connect_on_network_error()
+: <a class="el" href="classirc_1_1connection.html#a4abcb02812a09800a3205ac99b19f29a">irc::connection</a>
 </li>
 <li>connect_on_new_user()
 : <a class="el" href="classirc_1_1session.html#ade0663bcadff1faaba71cbcc186479ef">irc::session</a>
@@ -197,8 +227,26 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="classirc_1_1session.html#ad8b4f1ca7ef76a50a8171e01c0a4f280">irc::session</a>
 , <a class="el" href="classirc_1_1user.html#a78193110b7b9192f14dc6b1a3a070a75">irc::user</a>
 </li>
+<li>connect_on_read_msg()
+: <a class="el" href="classirc_1_1connection.html#a4b59674813d39ef964485dbc3ea3d3f6">irc::connection</a>
+</li>
+<li>connect_on_resolve()
+: <a class="el" href="classirc_1_1connection.html#ad3317f62bcc405017d98c21446c6b837">irc::connection</a>
+</li>
+<li>connect_on_set_mode()
+: <a class="el" href="classirc_1_1channel.html#a346a0438b745215518796c8bb35c73ac">irc::channel</a>
+</li>
+<li>connect_on_topic_change()
+: <a class="el" href="classirc_1_1channel.html#a42f765d83b379071f2a17f9d1e3d95be">irc::channel</a>
+</li>
+<li>connect_on_user_join()
+: <a class="el" href="classirc_1_1channel.html#aeed061f011b256c1f3bc8d5bf73ccba0">irc::channel</a>
+</li>
 <li>connect_on_user_notice()
 : <a class="el" href="classirc_1_1session.html#afad03f931b6faf28eee9cdb8a7f7e4ef">irc::session</a>
+</li>
+<li>connect_on_user_part()
+: <a class="el" href="classirc_1_1channel.html#a0ce3355fbe22385bc30ba02adefba090">irc::channel</a>
 </li>
 <li>connection()
 : <a class="el" href="classirc_1_1connection.html#a5d86830133fc084284a9d8c522692283">irc::connection</a>
@@ -216,7 +264,8 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
 <li>get_modes()
-: <a class="el" href="classirc_1_1user.html#a72a97a7dfa9b971fa73b3709bf037165">irc::user</a>
+: <a class="el" href="classirc_1_1channel.html#af512726925a496fac79704dc66a9e003">irc::channel</a>
+, <a class="el" href="classirc_1_1user.html#aae27cc015a80820f3042e0019cda4c28">irc::user</a>
 </li>
 <li>get_name()
 : <a class="el" href="classirc_1_1channel.html#aa208edc485d98895af9402a28316acfd">irc::channel</a>
@@ -232,7 +281,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="classirc_1_1session.html#abae0b3a2c12eeb07f6e7e88926ad9012">irc::session</a>
 </li>
 <li>get_session()
-: <a class="el" href="classirc_1_1channel.html#a524a7cc63614c0c1a40610983a5136f1">irc::channel</a>
+: <a class="el" href="classirc_1_1channel.html#a4a245a6df43eac06759821e2fdb5c212">irc::channel</a>
 </li>
 <li>get_topic()
 : <a class="el" href="classirc_1_1channel.html#aa04c8d83003e4188b1e1957e55c1895e">irc::channel</a>
@@ -247,9 +296,19 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>list_users()
+: <a class="el" href="classirc_1_1channel.html#aeab87dc9a00dd7e3d99e2ad64cf91f84">irc::channel</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>make_shared()
 : <a class="el" href="classirc_1_1connection.html#a43bb51bf9b1691f8708273bb7852a778">irc::connection</a>
+</li>
+<li>message()
+: <a class="el" href="classirc_1_1channel.html#a765c765ca20cd664b893596819418a02">irc::channel</a>
 </li>
 </ul>
 
@@ -262,8 +321,18 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 
 
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>part()
+: <a class="el" href="classirc_1_1channel.html#ae913950fdfa33ef21dacfaf2ff6b5c2a">irc::channel</a>
+</li>
 <li>prefix()
-: <a class="el" href="structirc_1_1prefix.html#af5436f2322fd67c8f2d5a446558a49bd">irc::prefix</a>
+: <a class="el" href="structirc_1_1prefix.html#a60f04b93b529425b0d13a46c5e469759">irc::prefix</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>remove_modes()
+: <a class="el" href="classirc_1_1channel.html#a1e1fbb585bc88dfdbd116d9d5abc6acd">irc::channel</a>
 </li>
 </ul>
 
@@ -272,8 +341,31 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>session()
 : <a class="el" href="classirc_1_1session.html#a7a6c68872dee9a18c8afc2103f20f02d">irc::session</a>
 </li>
+<li>set_operator()
+: <a class="el" href="classirc_1_1channel.html#a6df2a6e520c55e6fbb2ca401ee14b6da">irc::channel</a>
+</li>
+<li>set_topic()
+: <a class="el" href="classirc_1_1channel.html#accb388b54d7347465115e3a5d5c6c568">irc::channel</a>
+</li>
 <li>stop()
-: <a class="el" href="classirc_1_1session.html#acb3828fd8878e47dc19f06df4754d48b">irc::session</a>
+: <a class="el" href="classirc_1_1connection.html#addfdeeaa4277bb0acfb368cf50bf7cc1">irc::connection</a>
+, <a class="el" href="classirc_1_1session.html#acb3828fd8878e47dc19f06df4754d48b">irc::session</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
+<li>user()
+: <a class="el" href="classirc_1_1user.html#aca910d0405a76e15e5b5df163fc9aed8">irc::user</a>
+</li>
+<li>user_join()
+: <a class="el" href="classirc_1_1channel.html#a701390332d69e7e2b3f719fdf08b396a">irc::channel</a>
+</li>
+<li>user_part()
+: <a class="el" href="classirc_1_1channel.html#a5ad535e52dc2d5f26cc30dda0877e242">irc::channel</a>
+</li>
+<li>user_quit()
+: <a class="el" href="classirc_1_1channel.html#a7398c489def8e863e5f94e52b6b1b0af">irc::channel</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -282,7 +374,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="footer">
-    	Generated on Sun Jan 19 2014 20:01:57 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Sun Jan 19 2014 21:32:58 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>

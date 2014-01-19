@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['operator_3d',['operator=',['../structirc_1_1prefix.html#a733e116b9a4329607f792b2a3cebdfb5',1,'irc::prefix::operator=(prefix &amp;&amp;)=default'],['../structirc_1_1prefix.html#a0b3867c1270e71964269b3b024cf5f1d',1,'irc::prefix::operator=(const prefix &amp;)=default']]]
+  ['make_5fshared',['make_shared',['../classirc_1_1connection.html#a43bb51bf9b1691f8708273bb7852a778',1,'irc::connection']]],
+  ['message',['message',['../classirc_1_1channel.html#a765c765ca20cd664b893596819418a02',1,'irc::channel']]]
 ];

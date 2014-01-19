@@ -164,6 +164,73 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ee9c602d6d5922cddcbc2bd336db694"><td class="memItemLeft" align="right" valign="top">const_user_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a3ee9c602d6d5922cddcbc2bd336db694">end_users</a> () const </td></tr>
 <tr class="memdesc:a3ee9c602d6d5922cddcbc2bd336db694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to the end of the user list.  <a href="#a3ee9c602d6d5922cddcbc2bd336db694">More...</a><br/></td></tr>
 <tr class="separator:a3ee9c602d6d5922cddcbc2bd336db694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af512726925a496fac79704dc66a9e003"><td class="memItemLeft" align="right" valign="top">const mode_block &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#af512726925a496fac79704dc66a9e003">get_modes</a> () const </td></tr>
+<tr class="memdesc:af512726925a496fac79704dc66a9e003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mode block for this channel.  <a href="#af512726925a496fac79704dc66a9e003">More...</a><br/></td></tr>
+<tr class="separator:af512726925a496fac79704dc66a9e003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf5a59153b459bcd5337f2447ccac00"><td class="memItemLeft" align="right" valign="top">mode_block &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a3cf5a59153b459bcd5337f2447ccac00">get_modes</a> ()</td></tr>
+<tr class="memdesc:a3cf5a59153b459bcd5337f2447ccac00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mode block for this channel (const version).  <a href="#a3cf5a59153b459bcd5337f2447ccac00">More...</a><br/></td></tr>
+<tr class="separator:a3cf5a59153b459bcd5337f2447ccac00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad43860738dd8009333f9f75c07f2567"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#aad43860738dd8009333f9f75c07f2567">add_modes</a> (const <a class="el" href="structirc_1_1prefix.html">prefix</a> &amp;pfx, mode_list modes)</td></tr>
+<tr class="memdesc:aad43860738dd8009333f9f75c07f2567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the specified modes to the channel.  <a href="#aad43860738dd8009333f9f75c07f2567">More...</a><br/></td></tr>
+<tr class="separator:aad43860738dd8009333f9f75c07f2567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1fbb585bc88dfdbd116d9d5abc6acd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a1e1fbb585bc88dfdbd116d9d5abc6acd">remove_modes</a> (const <a class="el" href="structirc_1_1prefix.html">prefix</a> &amp;pfx, const mode_list &amp;modes)</td></tr>
+<tr class="memdesc:a1e1fbb585bc88dfdbd116d9d5abc6acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the specified modes from the channel.  <a href="#a1e1fbb585bc88dfdbd116d9d5abc6acd">More...</a><br/></td></tr>
+<tr class="separator:a1e1fbb585bc88dfdbd116d9d5abc6acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765c765ca20cd664b893596819418a02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a765c765ca20cd664b893596819418a02">message</a> (const shared_user &amp;<a class="el" href="classirc_1_1user.html">user</a>, const std::string <a class="el" href="structirc_1_1message.html">message</a>)</td></tr>
+<tr class="memdesc:a765c765ca20cd664b893596819418a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a message to the channel.  <a href="#a765c765ca20cd664b893596819418a02">More...</a><br/></td></tr>
+<tr class="separator:a765c765ca20cd664b893596819418a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad535e52dc2d5f26cc30dda0877e242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a5ad535e52dc2d5f26cc30dda0877e242">user_part</a> (const shared_user &amp;<a class="el" href="classirc_1_1user.html">user</a>, const optional_string &amp;msg)</td></tr>
+<tr class="memdesc:a5ad535e52dc2d5f26cc30dda0877e242"><td class="mdescLeft">&#160;</td><td class="mdescRight">An user has left the channel.  <a href="#a5ad535e52dc2d5f26cc30dda0877e242">More...</a><br/></td></tr>
+<tr class="separator:a5ad535e52dc2d5f26cc30dda0877e242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701390332d69e7e2b3f719fdf08b396a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a701390332d69e7e2b3f719fdf08b396a">user_join</a> (const shared_user &amp;<a class="el" href="classirc_1_1user.html">user</a>)</td></tr>
+<tr class="memdesc:a701390332d69e7e2b3f719fdf08b396a"><td class="mdescLeft">&#160;</td><td class="mdescRight">An user has joined the channel.  <a href="#a701390332d69e7e2b3f719fdf08b396a">More...</a><br/></td></tr>
+<tr class="separator:a701390332d69e7e2b3f719fdf08b396a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f7fdbb724221ef9cfb52f67e2168fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#ae7f7fdbb724221ef9cfb52f67e2168fb">add_user</a> (const shared_user &amp;<a class="el" href="classirc_1_1user.html">user</a>)</td></tr>
+<tr class="memdesc:ae7f7fdbb724221ef9cfb52f67e2168fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an user to the channel user list.  <a href="#ae7f7fdbb724221ef9cfb52f67e2168fb">More...</a><br/></td></tr>
+<tr class="separator:ae7f7fdbb724221ef9cfb52f67e2168fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7398c489def8e863e5f94e52b6b1b0af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a7398c489def8e863e5f94e52b6b1b0af">user_quit</a> (const shared_user &amp;<a class="el" href="classirc_1_1user.html">user</a>, const std::string &amp;msg)</td></tr>
+<tr class="memdesc:a7398c489def8e863e5f94e52b6b1b0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">An user has quitted IRC.  <a href="#a7398c489def8e863e5f94e52b6b1b0af">More...</a><br/></td></tr>
+<tr class="separator:a7398c489def8e863e5f94e52b6b1b0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accb388b54d7347465115e3a5d5c6c568"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#accb388b54d7347465115e3a5d5c6c568">set_topic</a> (std::string str)</td></tr>
+<tr class="memdesc:accb388b54d7347465115e3a5d5c6c568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the channel topic.  <a href="#accb388b54d7347465115e3a5d5c6c568">More...</a><br/></td></tr>
+<tr class="separator:accb388b54d7347465115e3a5d5c6c568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df2a6e520c55e6fbb2ca401ee14b6da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a6df2a6e520c55e6fbb2ca401ee14b6da">set_operator</a> (const <a class="el" href="classirc_1_1user.html">user</a> &amp;u)</td></tr>
+<tr class="memdesc:a6df2a6e520c55e6fbb2ca401ee14b6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a specified user as channel operator.  <a href="#a6df2a6e520c55e6fbb2ca401ee14b6da">More...</a><br/></td></tr>
+<tr class="separator:a6df2a6e520c55e6fbb2ca401ee14b6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab87dc9a00dd7e3d99e2ad64cf91f84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#aeab87dc9a00dd7e3d99e2ad64cf91f84">list_users</a> ()</td></tr>
+<tr class="memdesc:aeab87dc9a00dd7e3d99e2ad64cf91f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command::list request to the IRC server.  <a href="#aeab87dc9a00dd7e3d99e2ad64cf91f84">More...</a><br/></td></tr>
+<tr class="separator:aeab87dc9a00dd7e3d99e2ad64cf91f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae913950fdfa33ef21dacfaf2ff6b5c2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#ae913950fdfa33ef21dacfaf2ff6b5c2a">part</a> ()</td></tr>
+<tr class="memdesc:ae913950fdfa33ef21dacfaf2ff6b5c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf4c9385f1902f7334b00b9b4ecd164de" title="Parameters: &lt;channel&gt; *( &quot;,&quot; &lt;channel&gt; ) [ &lt;Part Message&gt; ]. ">command::part</a> request to the IRC server to leave this channel.  <a href="#ae913950fdfa33ef21dacfaf2ff6b5c2a">More...</a><br/></td></tr>
+<tr class="separator:ae913950fdfa33ef21dacfaf2ff6b5c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f14099c784839702bc4cf08e9a0bee9"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a1f14099c784839702bc4cf08e9a0bee9"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a1f14099c784839702bc4cf08e9a0bee9">connect_on_message</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a1f14099c784839702bc4cf08e9a0bee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the on_message signal.  <a href="#a1f14099c784839702bc4cf08e9a0bee9">More...</a><br/></td></tr>
+<tr class="separator:a1f14099c784839702bc4cf08e9a0bee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f765d83b379071f2a17f9d1e3d95be"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a42f765d83b379071f2a17f9d1e3d95be"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a42f765d83b379071f2a17f9d1e3d95be">connect_on_topic_change</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a42f765d83b379071f2a17f9d1e3d95be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the on_topic signal.  <a href="#a42f765d83b379071f2a17f9d1e3d95be">More...</a><br/></td></tr>
+<tr class="separator:a42f765d83b379071f2a17f9d1e3d95be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed061f011b256c1f3bc8d5bf73ccba0"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:aeed061f011b256c1f3bc8d5bf73ccba0"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#aeed061f011b256c1f3bc8d5bf73ccba0">connect_on_user_join</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:aeed061f011b256c1f3bc8d5bf73ccba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the on_user_join signal.  <a href="#aeed061f011b256c1f3bc8d5bf73ccba0">More...</a><br/></td></tr>
+<tr class="separator:aeed061f011b256c1f3bc8d5bf73ccba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ce3355fbe22385bc30ba02adefba090"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a0ce3355fbe22385bc30ba02adefba090"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a0ce3355fbe22385bc30ba02adefba090">connect_on_user_part</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a0ce3355fbe22385bc30ba02adefba090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the on_user_join signal.  <a href="#a0ce3355fbe22385bc30ba02adefba090">More...</a><br/></td></tr>
+<tr class="separator:a0ce3355fbe22385bc30ba02adefba090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f3bfeca917076d3004b40af9a3603e"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a45f3bfeca917076d3004b40af9a3603e"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a45f3bfeca917076d3004b40af9a3603e">connect_on_channel_part</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a45f3bfeca917076d3004b40af9a3603e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the on_channel_part signal.  <a href="#a45f3bfeca917076d3004b40af9a3603e">More...</a><br/></td></tr>
+<tr class="separator:a45f3bfeca917076d3004b40af9a3603e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed32f3fd4ed56dee4ea4f44d4260bf6e"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:aed32f3fd4ed56dee4ea4f44d4260bf6e"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#aed32f3fd4ed56dee4ea4f44d4260bf6e">connect_on_list_users</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:aed32f3fd4ed56dee4ea4f44d4260bf6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the on_list_users signal.  <a href="#aed32f3fd4ed56dee4ea4f44d4260bf6e">More...</a><br/></td></tr>
+<tr class="separator:aed32f3fd4ed56dee4ea4f44d4260bf6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a346a0438b745215518796c8bb35c73ac"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a346a0438b745215518796c8bb35c73ac"><td class="memTemplItemLeft" align="right" valign="top">bsig::connection&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html#a346a0438b745215518796c8bb35c73ac">connect_on_set_mode</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a346a0438b745215518796c8bb35c73ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the on_set_mode signal.  <a href="#a346a0438b745215518796c8bb35c73ac">More...</a><br/></td></tr>
+<tr class="separator:a346a0438b745215518796c8bb35c73ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="acffc04833721cb8cf2936e5d166c257a"></a>
@@ -202,6 +269,66 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aad43860738dd8009333f9f75c07f2567"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::add_modes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structirc_1_1prefix.html">prefix</a> &amp;&#160;</td>
+          <td class="paramname"><em>pfx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">mode_list&#160;</td>
+          <td class="paramname"><em>modes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds the specified modes to the channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pfx</td><td>The user prefix who sets the new modes. </td></tr>
+    <tr><td class="paramname">modes</td><td>The new modes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae7f7fdbb724221ef9cfb52f67e2168fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool irc::channel::add_user </td>
+          <td>(</td>
+          <td class="paramtype">const shared_user &amp;&#160;</td>
+          <td class="paramname"><em>user</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an user to the channel user list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The new user entry. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><span style="font-weight: bold;">true</span> on success, <span style="font-weight: bold;">false</span> otherwise. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a2774a3ea01b3bb867abee67784a364bb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -280,6 +407,209 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a45f3bfeca917076d3004b40af9a3603e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::channel::connect_on_channel_part </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to the on_channel_part signal. </p>
+<p>This signal is triggered when we leaves the channel.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>A callback function with the following signature: <div class="fragment"><div class="line"><span class="keywordtype">void</span> f(channel&amp; chan) </div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connection object to disconnect from the signal. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aed32f3fd4ed56dee4ea4f44d4260bf6e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::channel::connect_on_list_users </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to the on_list_users signal. </p>
+<p>This signal is triggered when we required a command::list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>A callback function with the following signature: <div class="fragment"><div class="line"><span class="keywordtype">void</span> f() </div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connection object to disconnect from the signal. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1f14099c784839702bc4cf08e9a0bee9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::channel::connect_on_message </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to the on_message signal. </p>
+<p>This signal is triggered when a message was sent to the channel.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>A callback function with the following signature: <div class="fragment"><div class="line"><span class="keywordtype">void</span> f(channel&amp; chan, user&amp; usr, <span class="keyword">const</span> std::string&amp; msg) </div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connection object to disconnect from the signal. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a346a0438b745215518796c8bb35c73ac"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::channel::connect_on_set_mode </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to the on_set_mode signal. </p>
+<p>This signal is triggered when channel modes changed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>A callback function with the following signature: <div class="fragment"><div class="line"><span class="keywordtype">void</span> f( <span class="keyword">const</span> prefix&amp; pfx, <span class="keyword">const</span> std::vector&lt;std::pair&lt;char, optional_string&gt;&gt;&amp; modes)</div>
+</div><!-- fragment --> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connection object to disconnect from the signal. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a42f765d83b379071f2a17f9d1e3d95be"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::channel::connect_on_topic_change </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to the on_topic signal. </p>
+<p>This signal is triggered when the topic has changed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>A callback function with the following signature: <div class="fragment"><div class="line"><span class="keywordtype">void</span> f(channel&amp; chan, <span class="keyword">const</span> std::string&amp; new_topic) </div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connection object to disconnect from the signal. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeed061f011b256c1f3bc8d5bf73ccba0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::channel::connect_on_user_join </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to the on_user_join signal. </p>
+<p>This signal is triggered when an user joins the channel.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>A callback function with the following signature: <div class="fragment"><div class="line"><span class="keywordtype">void</span> f(channel&amp; chan, user&amp; usr) </div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connection object to disconnect from the signal. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0ce3355fbe22385bc30ba02adefba090"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bsig::connection irc::channel::connect_on_user_part </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to the on_user_join signal. </p>
+<p>This signal is triggered when an user leaves the channel.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>A callback function with the following signature: <div class="fragment"><div class="line"><span class="keywordtype">void</span> f(channel&amp; chan, user&amp; usr, <span class="keyword">const</span> optional_string&amp; msg) </div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The connection object to disconnect from the signal. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a6c9743937c4a5ec49ac9e0a49cc714b6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -314,6 +644,43 @@ Public Member Functions</h2></td></tr>
 <p>Returns a const iterator to the end of the user list. </p>
 <dl class="section return"><dt>Returns</dt><dd>A const iterator to the end of the user list. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classirc_1_1channel.html#a6c9743937c4a5ec49ac9e0a49cc714b6" title="Returns an iterator to the end of the user list. ">end_users()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af512726925a496fac79704dc66a9e003"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const mode_block&amp; irc::channel::get_modes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the mode block for this channel. </p>
+<dl class="section return"><dt>Returns</dt><dd>the mode block for this channel. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3cf5a59153b459bcd5337f2447ccac00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mode_block&amp; irc::channel::get_modes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the mode block for this channel (const version). </p>
+<dl class="section return"><dt>Returns</dt><dd>the mode block for this channel. </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classirc_1_1channel.html#a3cf5a59153b459bcd5337f2447ccac00" title="Returns the mode block for this channel (const version). ">get_modes()</a> </dd></dl>
 
 </div>
 </div>
@@ -415,6 +782,252 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aeab87dc9a00dd7e3d99e2ad64cf91f84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::list_users </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends a command::list request to the IRC server. </p>
+
+</div>
+</div>
+<a class="anchor" id="a765c765ca20cd664b893596819418a02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::message </td>
+          <td>(</td>
+          <td class="paramtype">const shared_user &amp;&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends a message to the channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user who sent the message. </td></tr>
+    <tr><td class="paramname">message</td><td>The message. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae913950fdfa33ef21dacfaf2ff6b5c2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::part </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends a <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf4c9385f1902f7334b00b9b4ecd164de" title="Parameters: &lt;channel&gt; *( &quot;,&quot; &lt;channel&gt; ) [ &lt;Part Message&gt; ]. ">command::part</a> request to the IRC server to leave this channel. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e1fbb585bc88dfdbd116d9d5abc6acd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::remove_modes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structirc_1_1prefix.html">prefix</a> &amp;&#160;</td>
+          <td class="paramname"><em>pfx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const mode_list &amp;&#160;</td>
+          <td class="paramname"><em>modes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes the specified modes from the channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pfx</td><td>The user prefix who sets the modes. </td></tr>
+    <tr><td class="paramname">modes</td><td>The modes to remove. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6df2a6e520c55e6fbb2ca401ee14b6da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::set_operator </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classirc_1_1user.html">user</a> &amp;&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets a specified user as channel operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td>The user to set as op. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="accb388b54d7347465115e3a5d5c6c568"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::set_topic </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the channel topic. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The new channel topic. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a701390332d69e7e2b3f719fdf08b396a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::user_join </td>
+          <td>(</td>
+          <td class="paramtype">const shared_user &amp;&#160;</td>
+          <td class="paramname"><em>user</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An user has joined the channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The new user entry. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5ad535e52dc2d5f26cc30dda0877e242"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::user_part </td>
+          <td>(</td>
+          <td class="paramtype">const shared_user &amp;&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const optional_string &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An user has left the channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user who leaves the channel. </td></tr>
+    <tr><td class="paramname">msg</td><td>A message to display when the user leave the channel (optional). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7398c489def8e863e5f94e52b6b1b0af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void irc::channel::user_quit </td>
+          <td>(</td>
+          <td class="paramtype">const shared_user &amp;&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An user has quitted IRC. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user that has quitted. </td></tr>
+    <tr><td class="paramname">msg</td><td>A quit message (optional). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -422,7 +1035,7 @@ Public Member Functions</h2></td></tr>
   <ul>
     <li class="navelem"><a class="el" href="namespaceirc.html">irc</a></li><li class="navelem"><a class="el" href="classirc_1_1channel.html">channel</a></li>
     <li class="footer">
-    	Generated on Sun Jan 19 2014 20:01:57 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Sun Jan 19 2014 21:32:58 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>
