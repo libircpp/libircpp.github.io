@@ -56,6 +56,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -102,7 +103,7 @@ $(document).ready(function(){initNavTree('namespaceirc.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -124,6 +125,21 @@ $(document).ready(function(){initNavTree('namespaceirc.html','');});
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1channel.html">channel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">IRC channel class.  <a href="classirc_1_1channel.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1connection.html">connection</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">IRC connection class.  <a href="classirc_1_1connection.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structirc_1_1message.html">message</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Servers and clients send each other messages, which may or may not generate a reply.  <a href="structirc_1_1message.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structirc_1_1prefix.html">prefix</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="structirc_1_1message.html" title="Servers and clients send each other messages, which may or may not generate a reply. ">irc::message</a> prefix is represented by either a server's hostname, e.g.  <a href="structirc_1_1prefix.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1session.html">session</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">IRC session class.  <a href="classirc_1_1session.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html">user</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user class models and IRC user.  <a href="classirc_1_1user.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -449,7 +465,31 @@ Enumerations</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba974924d4587d16790d0f70b016f4aeb5">command::ERR_UMODEUNKNOWNFLAG</a> = 501, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf67d6463f530290994e7f9fead04996c">command::ERR_USERSDONTMATCH</a> = 502
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf67d6463f530290994e7f9fead04996c">command::ERR_USERSDONTMATCH</a> = 502, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbacb5e100e5a9a3e7f6d1fd97512215282">command::error</a> = rpl_max + 1, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba731b886d80d2ea138da54d30f43b2005">command::join</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf175e09ccd29c70d6cfd9181256da4a7">command::kick</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba15d61712450a686a7f365adf4fef581f">command::mode</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbae2e42a07550863f8b67f5eb252581f6d">command::nick</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaefd2af60c8501931cb9c736b5ad74f65">command::notice</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf4c9385f1902f7334b00b9b4ecd164de">command::part</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbadf911f0151f9ef021d410b4be5060972">command::ping</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6fdb087aa3fbfbcb8287a593a0919e61">command::pong</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba4decfad5695748dbd9ebc3043c88ccf9">command::privmsg</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbadbd73c2b545209688ed794c0d5413d5a">command::quit</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba9d9b68ac2b1de18d3712096354b3c3a5">command::topic</a>
 <br/>
  }</td></tr>
 <tr class="memdesc:a4e619872a4d4ee692677e99e265fb3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reply codes and errors.  <a href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cb">More...</a><br/></td></tr>
@@ -475,7 +515,8 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reply codes and errors. </p>
-<p>RFC 2812: Error replies are found in the range from 400 to 599. </p>
+<p>RFC 2812: Error replies are found in the range from 400 to 599.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>list, names, invite, channel mode command documentation. </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cba5e8ce1f453c27f29136edfe376bcb9dc"></a>RPL_WELCOME</em>&#160;</td><td class="fielddoc">
 <p>RFC 2812: "Welcome to the Internet Relay Network &lt;nick&gt;!&lt;user&gt;@&lt;host&gt;". </p>
@@ -1191,6 +1232,246 @@ Enumerations</h2></td></tr>
 <li>Error sent to any user trying to view or change the user mode for a user other than themselves. </li>
 </ul>
 </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cbacb5e100e5a9a3e7f6d1fd97512215282"></a>error</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;error message&gt; </p>
+<p>The ERROR command is for use by servers when reporting a serious or fatal error to its peers. It may also be sent from one server to another but MUST NOT be accepted from any normal unknown clients.</p>
+<p>Only an ERROR message SHOULD be used for reporting errors which occur with a server-to-server link. An ERROR message is sent to the server at the other end (which reports it to appropriate local users and logs) and to appropriate local users and logs. It is not to be passed onto any other servers by a server if it is received from a server.</p>
+<p>The ERROR message is also used before terminating a client connection.</p>
+<p>When a server sends a received ERROR message to its operators, the message SHOULD be encapsulated inside a NOTICE message, indicating that the client was not responsible for the error.</p>
+<p>Numerics:</p>
+<ul>
+<li>None.</li>
+</ul>
+<p>Examples:</p>
+<p>ERROR :Server *.fi already exists<br/>
+; ERROR message to the other server which caused this error.</p>
+<p>NOTICE WiZ :ERROR from csd.bu.edu &ndash; Server *.fi already exists<br/>
+; Same ERROR message as above but sent to user WiZ on the other server. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cba731b886d80d2ea138da54d30f43b2005"></a>join</em>&#160;</td><td class="fielddoc">
+<p>Parameters: ( &lt;channel&gt; *( "," &lt;channel&gt; ) [ &lt;key&gt; *( "," &lt;key&gt; ) ] ) / "0". </p>
+<p>The JOIN command is used by a user to request to start listening to the specific channel. Servers MUST be able to parse arguments in the form of a list of target, but SHOULD NOT use lists when sending JOIN messages to clients.</p>
+<p>Once a user has joined a channel, he receives information about all commands his server receives affecting the channel. This includes <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba731b886d80d2ea138da54d30f43b2005" title="Parameters: ( &lt;channel&gt; *( &quot;,&quot; &lt;channel&gt; ) [ &lt;key&gt; *( &quot;,&quot; &lt;key&gt; ) ] ) / &quot;0&quot;. ">command::join</a>, <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba15d61712450a686a7f365adf4fef581f" title="Parameters: &lt;nickname&gt; *( ( &quot;+&quot; / &quot;-&quot; ) *( &quot;i&quot; / &quot;w&quot; / &quot;o&quot; / &quot;O&quot; / &quot;r&quot; ) ) ">command::mode</a>, <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf175e09ccd29c70d6cfd9181256da4a7" title="Parameters: &lt;channel&gt; *( &quot;,&quot; &lt;channel&gt; ) &lt;user&gt; *( &quot;,&quot; &lt;user&gt; ) [&lt;comment&gt;]. ">command::kick</a>, <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf4c9385f1902f7334b00b9b4ecd164de" title="Parameters: &lt;channel&gt; *( &quot;,&quot; &lt;channel&gt; ) [ &lt;Part Message&gt; ]. ">command::part</a>, <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbadbd73c2b545209688ed794c0d5413d5a" title="Parameters: [ &lt;Quit Message&gt; ]. ">command::quit</a> and of course <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba4decfad5695748dbd9ebc3043c88ccf9" title="Parameters: &lt;msgtarget&gt; &lt;text to be sent&gt; ">command::privmsg</a> / <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaefd2af60c8501931cb9c736b5ad74f65" title="Parameters: &lt;msgtarget&gt; &lt;text&gt; ">command::notice</a>. This allows channel members to keep track of the other channel members, as well as channel modes.</p>
+<p>If a JOIN is successful, the user receives a JOIN message as confirmation and is then sent the channel's topic (using RPL_TOPIC) and the list of users who are on the channel (using RPL_NAMREPLY), which MUST include the user joining.</p>
+<p>Note that this message accepts a special argument ("0"), which is a special request to leave all channels the user is currently a member of. The server will process this message as if the user had sent a <a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf4c9385f1902f7334b00b9b4ecd164de" title="Parameters: &lt;channel&gt; *( &quot;,&quot; &lt;channel&gt; ) [ &lt;Part Message&gt; ]. ">command::part</a> command (See <a href="https://tools.ietf.org/html/rfc2812#section-3.2.2" target="blank_">Section 3.2.2</a>) for each channel he is a member of.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6d1a5dcf9c57d1077f64c80639b7a320" title="RFC 2812: &quot;&lt;command&gt; :Not enough parameters&quot;. ">command::ERR_NEEDMOREPARAMS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaedc00d8ceb18445bc8fd017c40cc63fe" title="RFC 2812: &quot;&lt;channel&gt; :Cannot join channel (+b)&quot;. ">command::ERR_BANNEDFROMCHAN</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbab976cb96e6c3451761fad1d61a01a65d" title="RFC 2812: &quot;&lt;channel&gt; :Cannot join channel (+i)&quot;. ">command::ERR_INVITEONLYCHAN</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba00018ee353c1205d15a710c3f4e93bb8" title="RFC 2812: &quot;&lt;channel&gt; :Cannot join channel (+k)&quot;. ">command::ERR_BADCHANNELKEY</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaab55683ba4c93a30bd87cf48fb3407b1" title="RFC 2812: &quot;&lt;channel&gt; :Cannot join channel (+l)&quot;. ">command::ERR_CHANNELISFULL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbafa52490be369ff50c05b41ab290db4c9" title="RFC 2812: &quot;&lt;channel&gt; :Bad Channel Mask&quot;. ">command::ERR_BADCHANMASK</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbab5aff83fa69159a5d6a104f432904df3" title="RFC 2812: &quot;&lt;channel name&gt; :No such channel&quot;. ">command::ERR_NOSUCHCHANNEL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbae70303607ebb89b8c80559e276849e4a" title="RFC 2812: &quot;&lt;channel name&gt; :You have joined too many channels&quot;. ">command::ERR_TOOMANYCHANNELS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba3fea3333675e0251ab241a7cea3c4f73" title="RFC 2812: &quot;&lt;target&gt; :&lt;error code&gt; recipients. &lt;abort message&gt;&quot;. ">command::ERR_TOOMANYTARGETS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaccf22b7486d9fc7435925adf129a6bc3" title="RFC 2812: &quot;&lt;nick/channel&gt; :Nick/channel is temporarily unavailable&quot;. ">command::ERR_UNAVAILRESOURCE</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6a54f104d105f608891cbfa4093477a4" title="RFC 2812: &quot;&lt;channel&gt; :&lt;topic&gt;&quot;. ">command::RPL_TOPIC</a></li>
+</ul>
+<p>Examples:</p>
+<p>JOIN #foobar<br/>
+; Command to join channel #foobar.</p>
+<p>JOIN &amp;foo fubar<br/>
+ ; Command to join channel &amp;foo using key "fubar". </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cbaf175e09ccd29c70d6cfd9181256da4a7"></a>kick</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;channel&gt; *( "," &lt;channel&gt; ) &lt;user&gt; *( "," &lt;user&gt; ) [&lt;comment&gt;]. </p>
+<p>The KICK command can be used to request the forced removal of a user from a channel. It causes the &lt;user&gt; to PART from the &lt;channel&gt; by force. For the message to be syntactically correct, there MUST be either one channel parameter and multiple user parameter, or as many channel parameters as there are user parameters. If a "comment" is given, this will be sent instead of the default message, the nickname of the user issuing the KICK.</p>
+<p>The server MUST NOT send KICK messages with multiple channels or users to clients. This is necessarily to maintain backward compatibility with old client software.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6d1a5dcf9c57d1077f64c80639b7a320" title="RFC 2812: &quot;&lt;command&gt; :Not enough parameters&quot;. ">command::ERR_NEEDMOREPARAMS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbab5aff83fa69159a5d6a104f432904df3" title="RFC 2812: &quot;&lt;channel name&gt; :No such channel&quot;. ">command::ERR_NOSUCHCHANNEL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbafa52490be369ff50c05b41ab290db4c9" title="RFC 2812: &quot;&lt;channel&gt; :Bad Channel Mask&quot;. ">command::ERR_BADCHANMASK</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba88f46193366ed6f8fd002f9d4cecdcaf" title="RFC 2812: &quot;&lt;channel&gt; :You&#39;re not channel operator&quot;. ">command::ERR_CHANOPRIVSNEEDED</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbae8ab3753329b1e06e35a06787c8bd1f5" title="RFC 2812: &quot;&lt;nick&gt; &lt;channel&gt; :They aren&#39;t on that channel&quot;. ">command::ERR_USERNOTINCHANNEL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbad425e14be620a92262ba8d83563fe9cc" title="RFC 2812: &quot;&lt;channel&gt; :You&#39;re not on that channel&quot;. ">command::ERR_NOTONCHANNEL</a></li>
+</ul>
+<p>Examples:</p>
+<p>KICK &amp;Melbourne Matthew<br/>
+; Command to kick Matthew from &amp;Melbourne</p>
+<p>KICK #Finnish John :Speaking English<br/>
+; Command to kick John from #Finnish using "Speaking English" as the reason (comment).</p>
+<p>:WiZ!jto@tolsun.oulu.fi KICK #Finnish John<br/>
+; KICK message on channel #Finnish from WiZ to remove John from channel. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cba15d61712450a686a7f365adf4fef581f"></a>mode</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;nickname&gt; *( ( "+" / "-" ) *( "i" / "w" / "o" / "O" / "r" ) ) </p>
+<p>The user MODE's are typically changes which affect either how the client is seen by others or what 'extra' messages the client is sent.</p>
+<p>A user MODE command MUST only be accepted if both the sender of the message and the nickname given as a parameter are both the same. If no other parameter is given, then the server will return the current settings for the nick.</p>
+<p>The available modes are as follows:</p>
+<ul>
+<li>a - user is flagged as away;</li>
+<li>i - marks a users as invisible;</li>
+<li>w - user receives wallops;</li>
+<li>r - restricted user connection;</li>
+<li>o - operator flag;</li>
+<li>O - local operator flag;</li>
+<li>s - marks a user for receipt of server notices.</li>
+</ul>
+<p>Additional modes may be available later on.</p>
+<p>The flag 'a' SHALL NOT be toggled by the user using the MODE command, instead use of the AWAY command is REQUIRED.</p>
+<p>If a user attempts to make themselves an operator using the "+o" or "+O" flag, the attempt SHOULD be ignored as users could bypass the authentication mechanisms of the OPER command. There is no restriction, however, on anyone `deopping' themselves (using "-o" or "-O").</p>
+<p>On the other hand, if a user attempts to make themselves unrestricted using the "-r" flag, the attempt SHOULD be ignored. There is no restriction, however, on anyone `deopping' themselves (using "+r"). This flag is typically set by the server upon connection for administrative reasons. While the restrictions imposed are left up to the implementation, it is typical that a restricted user not be allowed to change nicknames, nor make use of the channel operator status on channels.</p>
+<p>The flag 's' is obsolete but MAY still be used.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6d1a5dcf9c57d1077f64c80639b7a320" title="RFC 2812: &quot;&lt;command&gt; :Not enough parameters&quot;. ">command::ERR_NEEDMOREPARAMS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf67d6463f530290994e7f9fead04996c" title="RFC 2812: &quot;:Cannot change mode for other users&quot;. ">command::ERR_USERSDONTMATCH</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba974924d4587d16790d0f70b016f4aeb5" title="RFC 2812: &quot;:Unknown MODE flag&quot;. ">command::ERR_UMODEUNKNOWNFLAG</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba578f982b0d3663a9f35e0d2f1ca2f7a1" title="RFC 2812: &quot;&lt;user mode string&gt;&quot;. ">command::RPL_UMODEIS</a></li>
+</ul>
+<p>Examples:</p>
+<p>MODE WiZ -w<br/>
+; Command by WiZ to turn off reception of WALLOPS messages.</p>
+<p>MODE Angel +i<br/>
+; Command from Angel to make herself invisible.</p>
+<p>MODE WiZ -o<br/>
+; WiZ 'deopping' (removing operator status). </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cbae2e42a07550863f8b67f5eb252581f6d"></a>nick</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;nickname&gt; </p>
+<p>NICK command is used to give user a nickname or change the existing one.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba2e6ace138911e93dec7f614ced2a250a" title="RFC 2812: &quot;:No nickname given&quot;. ">command::ERR_NONICKNAMEGIVEN</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba9cac27576344f214f2ef8eeb94113811" title="RFC 2812: &quot;&lt;nick&gt; :Erroneous nickname&quot;. ">command::ERR_ERRONEUSNICKNAME</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba771522bfe3c299ae66ffbebfa8a48384" title="RFC 2812: &quot;&lt;nick&gt; :Nickname is already in use&quot;. ">command::ERR_NICKNAMEINUSE</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba31e30c6cd71123e6d809c91ff0a30902" title="RFC 2812: &quot;&lt;nick&gt; :Nickname collision KILL from &lt;user&gt;@&lt;host&gt;&quot;. ">command::ERR_NICKCOLLISION</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaccf22b7486d9fc7435925adf129a6bc3" title="RFC 2812: &quot;&lt;nick/channel&gt; :Nick/channel is temporarily unavailable&quot;. ">command::ERR_UNAVAILRESOURCE</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba9bc3b29a51fd74a8522d79ac2b17e2e8" title="RFC 2812: &quot;:Your connection is restricted!&quot;. ">command::ERR_RESTRICTED</a></li>
+</ul>
+<p>Examples:</p>
+<p>NICK Wiz<br/>
+; Introducing new nick "Wiz" if session is still unregistered, or user changing his nickname to "Wiz"</p>
+<p>:WiZ!jto@tolsun.oulu.fi NICK Kilroy<br/>
+; Server telling that WiZ changed his nickname to Kilroy. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cbaefd2af60c8501931cb9c736b5ad74f65"></a>notice</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;msgtarget&gt; &lt;text&gt; </p>
+<p>The NOTICE command is used similarly to PRIVMSG. The difference between NOTICE and PRIVMSG is that automatic replies MUST NEVER be sent in response to a NOTICE message. This rule applies to servers too</p>
+<ul>
+<li>they MUST NOT send any error reply back to the client on receipt of a notice. The object of this rule is to avoid loops between clients automatically sending something in response to something it received.</li>
+</ul>
+<p>This command is available to services as well as users.</p>
+<p>This is typically used by services, and automatons (clients with either an AI or other interactive program controlling their actions).</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba4decfad5695748dbd9ebc3043c88ccf9" title="Parameters: &lt;msgtarget&gt; &lt;text to be sent&gt; ">command::privmsg</a> for more details on replies and examples. </dd></dl>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cbaf4c9385f1902f7334b00b9b4ecd164de"></a>part</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;channel&gt; *( "," &lt;channel&gt; ) [ &lt;Part Message&gt; ]. </p>
+<p>The PART command causes the user sending the message to be removed from the list of active members for all given channels listed in the parameter string. If a "Part Message" is given, this will be sent instead of the default message, the nickname. This request is always granted by the server.</p>
+<p>Servers MUST be able to parse arguments in the form of a list of target, but SHOULD NOT use lists when sending PART messages to clients.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6d1a5dcf9c57d1077f64c80639b7a320" title="RFC 2812: &quot;&lt;command&gt; :Not enough parameters&quot;. ">command::ERR_NEEDMOREPARAMS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbab5aff83fa69159a5d6a104f432904df3" title="RFC 2812: &quot;&lt;channel name&gt; :No such channel&quot;. ">command::ERR_NOSUCHCHANNEL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbad425e14be620a92262ba8d83563fe9cc" title="RFC 2812: &quot;&lt;channel&gt; :You&#39;re not on that channel&quot;. ">command::ERR_NOTONCHANNEL</a></li>
+</ul>
+<p>Examples:</p>
+<p>PART #twilight_zone<br/>
+; Command to leave channel "#twilight_zone"</p>
+<p>PART #oz-ops,&amp;group5<br/>
+; Command to leave both channels "&amp;group5" and "#oz-ops".</p>
+<p>:WiZ!jto@tolsun.oulu.fi PART #playzone :I lost<br/>
+; User WiZ leaving channel "#playzone" with the message "I lost". </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cbadf911f0151f9ef021d410b4be5060972"></a>ping</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;server1&gt; [ &lt;server2&gt; ]. </p>
+<p>The PING command is used to test the presence of an active client or server at the other end of the connection. Servers send a PING message at regular intervals if no other activity detected coming from a connection. If a connection fails to respond to a PING message within a set amount of time, that connection is closed. A PING message MAY be sent even if the connection is active.</p>
+<p>When a PING message is received, the appropriate PONG message MUST be sent as reply to &lt;server1&gt; (server which sent the PING message out) as soon as possible. If the &lt;server2&gt; parameter is specified, it represents the target of the ping, and the message gets forwarded there.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbadc8dddfe1f432cc84dd1f464f9667b08" title="RFC 2812: &quot;:No origin specified&quot;. ">command::ERR_NOORIGIN</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba963af96dcd9f9e13586209bfbfd81666" title="RFC 2812: &quot;&lt;server name&gt; :No such server&quot;. ">command::ERR_NOSUCHSERVER</a></li>
+</ul>
+<p>Examples:</p>
+<p>PING tolsun.oulu.fi<br/>
+; Command to send a PING message to server</p>
+<p>PING WiZ tolsun.oulu.fi<br/>
+; Command from WiZ to send a PING message to server "tolsun.oulu.fi"</p>
+<p>PING :irc.funet.fi<br/>
+; Ping message sent by server "irc.funet.fi" </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cba6fdb087aa3fbfbcb8287a593a0919e61"></a>pong</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;server&gt; [ &lt;server2&gt; ]. </p>
+<p>PONG message is a reply to ping message. If parameter &lt;server2&gt; is given, this message MUST be forwarded to given target. The &lt;server&gt; parameter is the name of the entity who has responded to PING message and generated this message.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbadc8dddfe1f432cc84dd1f464f9667b08" title="RFC 2812: &quot;:No origin specified&quot;. ">command::ERR_NOORIGIN</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba963af96dcd9f9e13586209bfbfd81666" title="RFC 2812: &quot;&lt;server name&gt; :No such server&quot;. ">command::ERR_NOSUCHSERVER</a></li>
+</ul>
+<p>Example:</p>
+<p>PONG csd.bu.edu tolsun.oulu.fi<br/>
+; PONG message from csd.bu.edu to tolsun.oulu.fi </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cba4decfad5695748dbd9ebc3043c88ccf9"></a>privmsg</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;msgtarget&gt; &lt;text to be sent&gt; </p>
+<p>PRIVMSG is used to send private messages between users, as well as to send messages to channels. &lt;msgtarget&gt; is usually the nickname of the recipient of the message, or a channel name.</p>
+<p>The &lt;msgtarget&gt; parameter may also be a host mask (#&lt;mask&gt;) or server mask ($&lt;mask&gt;). In both cases the server will only send the PRIVMSG to those who have a server or host matching the mask. The mask MUST have at least 1 (one) "." in it and no wildcards following the last ".". This requirement exists to prevent people sending messages to "#*" or "$*", which would broadcast to all users. Wildcards are the '*' and '?' characters. This extension to the PRIVMSG command is only available to operators.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbae3fcdc4c9c63c9f8c166afd7f0e21400" title="RFC 2812: &quot;:No recipient given (&lt;command&gt;)&quot;. ">command::ERR_NORECIPIENT</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbac0a362ddf5687d6b11b593b7a61b760c" title="RFC 2812: &quot;:No text to send&quot;. ">command::ERR_NOTEXTTOSEND</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaa5947a804185ca10d05ea808aa920cdc" title="RFC 2812: &quot;&lt;channel name&gt; :Cannot send to channel&quot;. ">command::ERR_CANNOTSENDTOCHAN</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba31c349afb2a436368d495fb77640685b" title="RFC 2812: &quot;&lt;mask&gt; :No toplevel domain specified&quot;. ">command::ERR_NOTOPLEVEL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba31f50cae4e935019bca7ecb428f09826" title="RFC 2812: &quot;&lt;mask&gt; :Wildcard in toplevel domain&quot;. ">command::ERR_WILDTOPLEVEL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba3fea3333675e0251ab241a7cea3c4f73" title="RFC 2812: &quot;&lt;target&gt; :&lt;error code&gt; recipients. &lt;abort message&gt;&quot;. ">command::ERR_TOOMANYTARGETS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbafe16b16f236461752f80b6863b0e4401" title="RFC 2812: &quot;&lt;nickname&gt; :No such nick/channel&quot;. ">command::ERR_NOSUCHNICK</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaac396101391dc4a37520676258b2ce15" title="RFC 2812: &quot;&lt;nick&gt; :&lt;away message&gt;&quot;. ">command::RPL_AWAY</a></li>
+</ul>
+<p>Examples:</p>
+<p>:Angel!wings@irc.org PRIVMSG Wiz :Are you receiving this message ?<br/>
+ ; Message from Angel to Wiz.</p>
+<p>PRIVMSG Angel :yes I'm receiving it !<br/>
+ ; Command to send a message to Angel.</p>
+<p>PRIVMSG jto@tolsun.oulu.fi :Hello !<br/>
+ ; Command to send a message to a user on server tolsun.oulu.fi with username of "jto".</p>
+<p>PRIVMSG kaltmillennium.stealth.net@irc.stealth.net :Are you a frog?<br/>
+ ; Message to a user on server irc.stealth.net with username of "kalt", and connected from the host millennium.stealth.net.</p>
+<p>PRIVMSG kaltmillennium.stealth.net :Do you like cheese?<br/>
+ ; Message to a user on the local server with username of "kalt", and connected from the host millennium.stealth.net.</p>
+<p>PRIVMSG Wiz!jto@tolsun.oulu.fi :Hello !<br/>
+ ; Message to the user with nickname Wiz who is connected from the host tolsun.oulu.fi and has the username "jto".</p>
+<p>PRIVMSG $*.fi :Server tolsun.oulu.fi rebooting.<br/>
+ ; Message to everyone on a server which has a name matching *.fi.</p>
+<p>PRIVMSG #*.edu :NSFNet is undergoing work, expect interruptions<br/>
+ ; Message to all users who come from a host which has a name matching *.edu. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cbadbd73c2b545209688ed794c0d5413d5a"></a>quit</em>&#160;</td><td class="fielddoc">
+<p>Parameters: [ &lt;Quit Message&gt; ]. </p>
+<p>A client session is terminated with a quit message. The server acknowledges this by sending an ERROR message to the client.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li>None.</li>
+</ul>
+<p>Example:</p>
+<p>QUIT :Gone to have lunch<br/>
+; Preferred message format.</p>
+<p>:syrk!kalt@millennium.stealth.net QUIT :Gone to have lunch<br/>
+; User syrk has quit IRC to have lunch. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4e619872a4d4ee692677e99e265fb3cba9d9b68ac2b1de18d3712096354b3c3a5"></a>topic</em>&#160;</td><td class="fielddoc">
+<p>Parameters: &lt;channel&gt; [ &lt;topic&gt; ]. </p>
+<p>The TOPIC command is used to change or view the topic of a channel. The topic for channel &lt;channel&gt; is returned if there is no &lt;topic&gt; given. If the &lt;topic&gt; parameter is present, the topic for that channel will be changed, if this action is allowed for the user requesting it. If the &lt;topic&gt; parameter is an empty string, the topic for that channel will be removed.</p>
+<p>Numeric Replies:</p>
+<ul>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6d1a5dcf9c57d1077f64c80639b7a320" title="RFC 2812: &quot;&lt;command&gt; :Not enough parameters&quot;. ">command::ERR_NEEDMOREPARAMS</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbad425e14be620a92262ba8d83563fe9cc" title="RFC 2812: &quot;&lt;channel&gt; :You&#39;re not on that channel&quot;. ">command::ERR_NOTONCHANNEL</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba809833c4a709061d68422c0dc2fda105" title="RFC 2812: &quot;&lt;channel&gt; :No topic is set&quot;. ">command::RPL_NOTOPIC</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba6a54f104d105f608891cbfa4093477a4" title="RFC 2812: &quot;&lt;channel&gt; :&lt;topic&gt;&quot;. ">command::RPL_TOPIC</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba88f46193366ed6f8fd002f9d4cecdcaf" title="RFC 2812: &quot;&lt;channel&gt; :You&#39;re not channel operator&quot;. ">command::ERR_CHANOPRIVSNEEDED</a></li>
+<li><a class="el" href="namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbae94981de856f7f50d5a55b1f5efdfbcb" title="RFC 2812: &quot;&lt;channel&gt; :Channel doesn&#39;t support modes&quot;. ">command::ERR_NOCHANMODES</a></li>
+</ul>
+<p>Examples:</p>
+<p>:WiZ!jto@tolsun.oulu.fi TOPIC #test<br/>
+:New topic ; User Wiz setting the topic.</p>
+<p>TOPIC #test :another topic<br/>
+; Command to set the topic on #test to "another topic".</p>
+<p>TOPIC #test :<br/>
+; Command to clear the topic on #test.</p>
+<p>TOPIC #test<br/>
+; Command to check the topic for #test. </p>
+</td></tr>
 </table>
 
 </div>
@@ -1202,7 +1483,7 @@ Enumerations</h2></td></tr>
   <ul>
     <li class="navelem"><a class="el" href="namespaceirc.html">irc</a></li>
     <li class="footer">
-    	Generated on Sat Jan 18 2014 20:14:34 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Sun Jan 19 2014 20:01:57 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>

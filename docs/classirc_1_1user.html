@@ -56,6 +56,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -103,7 +104,7 @@ $(document).ready(function(){initNavTree('classirc_1_1user.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -130,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbc5e5fe1a9537dbc7a98f8b2fd329c6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#abbc5e5fe1a9537dbc7a98f8b2fd329c6">get_nick</a> () const </td></tr>
 <tr class="memdesc:abbc5e5fe1a9537dbc7a98f8b2fd329c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the nick for this user  <a href="#abbc5e5fe1a9537dbc7a98f8b2fd329c6">More...</a><br/></td></tr>
 <tr class="separator:abbc5e5fe1a9537dbc7a98f8b2fd329c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb27a62a2c71f275c713d5fc5a77e84"><td class="memItemLeft" align="right" valign="top">const prefix &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#adbb27a62a2c71f275c713d5fc5a77e84">get_prefix</a> () const </td></tr>
+<tr class="memitem:adbb27a62a2c71f275c713d5fc5a77e84"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structirc_1_1prefix.html">prefix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#adbb27a62a2c71f275c713d5fc5a77e84">get_prefix</a> () const </td></tr>
 <tr class="memdesc:adbb27a62a2c71f275c713d5fc5a77e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the prefix for this user  <a href="#adbb27a62a2c71f275c713d5fc5a77e84">More...</a><br/></td></tr>
 <tr class="separator:adbb27a62a2c71f275c713d5fc5a77e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72a97a7dfa9b971fa73b3709bf037165"><td class="memItemLeft" align="right" valign="top">mode_block &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1user.html#a72a97a7dfa9b971fa73b3709bf037165">get_modes</a> ()</td></tr>
@@ -181,7 +182,7 @@ template&lt;typename F &gt; </div>
   </dd>
 </dl>
 <p>This signal is triggered when ever the user has sent a channel a private message, the format of the callback is:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(irc::channel&amp;, <a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp; msg) </div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> f(<a class="code" href="classirc_1_1channel.html">irc::channel</a>&amp;, <a class="code" href="classirc_1_1user.html">irc::user</a>&amp;, <span class="keyword">const</span> std::string&amp; msg) </div>
 </div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>the connection object to disconnect from the signal </dd></dl>
 
 </div>
@@ -333,7 +334,7 @@ template&lt;typename F &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const prefix&amp; irc::user::get_prefix </td>
+          <td class="memname">const <a class="el" href="structirc_1_1prefix.html">prefix</a>&amp; irc::user::get_prefix </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -353,7 +354,7 @@ template&lt;typename F &gt; </div>
   <ul>
     <li class="navelem"><a class="el" href="namespaceirc.html">irc</a></li><li class="navelem"><a class="el" href="classirc_1_1user.html">user</a></li>
     <li class="footer">
-    	Generated on Sat Jan 18 2014 20:14:34 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Sun Jan 19 2014 20:01:57 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>

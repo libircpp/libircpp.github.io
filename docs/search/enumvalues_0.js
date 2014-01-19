@@ -53,5 +53,6 @@ var searchData=
   ['err_5fwasnosuchnick',['ERR_WASNOSUCHNICK',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaa4a32cf320983a4521298637f6a14c40',1,'irc']]],
   ['err_5fwildtoplevel',['ERR_WILDTOPLEVEL',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba31f50cae4e935019bca7ecb428f09826',1,'irc']]],
   ['err_5fyourebannedcreep',['ERR_YOUREBANNEDCREEP',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba150910f539109a14570e158e6dfc02bb',1,'irc']]],
-  ['err_5fyouwillbebanned',['ERR_YOUWILLBEBANNED',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba8030b3ba8bd4bdf258b59c04221918f5',1,'irc']]]
+  ['err_5fyouwillbebanned',['ERR_YOUWILLBEBANNED',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba8030b3ba8bd4bdf258b59c04221918f5',1,'irc']]],
+  ['error',['error',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbacb5e100e5a9a3e7f6d1fd97512215282',1,'irc']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['user',['user',['../classirc_1_1user.html',1,'irc']]]
+  ['channel',['channel',['../classirc_1_1channel.html',1,'irc']]],
+  ['connection',['connection',['../classirc_1_1connection.html',1,'irc']]]
 ];
