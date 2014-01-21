@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['nick',['nick',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbae2e42a07550863f8b67f5eb252581f6d',1,'irc']]],
-  ['notice',['notice',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaefd2af60c8501931cb9c736b5ad74f65',1,'irc']]]
+  ['make_5fshared',['make_shared',['../classirc_1_1connection.html#a43bb51bf9b1691f8708273bb7852a778',1,'irc::connection']]],
+  ['message',['message',['../structirc_1_1message.html',1,'irc']]],
+  ['message',['message',['../classirc_1_1channel.html#a765c765ca20cd664b893596819418a02',1,'irc::channel']]],
+  ['mode',['mode',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba15d61712450a686a7f365adf4fef581f',1,'irc']]]
 ];

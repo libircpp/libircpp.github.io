@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['join',['join',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba731b886d80d2ea138da54d30f43b2005',1,'irc']]]
+  ['ctcp',['ctcp',['../namespaceirc_1_1ctcp.html',1,'irc']]],
+  ['irc',['irc',['../namespaceirc.html',1,'']]],
+  ['is_5foperator',['is_operator',['../classirc_1_1channel.html#a75d0149d5461f182b1a93d3cc78f8269',1,'irc::channel']]]
 ];

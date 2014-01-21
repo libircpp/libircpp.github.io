@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['remove_5fmodes',['remove_modes',['../classirc_1_1channel.html#a1e1fbb585bc88dfdbd116d9d5abc6acd',1,'irc::channel']]],
   ['rpl_5fadminemail',['RPL_ADMINEMAIL',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba8c84ecc09476765d82cdefb954ffe29e',1,'irc']]],
   ['rpl_5fadminloc1',['RPL_ADMINLOC1',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba3fe4a0d0d295646415134e98b318fefd',1,'irc']]],
   ['rpl_5fadminloc2',['RPL_ADMINLOC2',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba9d0230a8149f0a35b5ff6c84d689c942',1,'irc']]],

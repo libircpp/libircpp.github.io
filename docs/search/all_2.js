@@ -4,7 +4,7 @@ var searchData=
   ['channel',['channel',['../classirc_1_1channel.html#acffc04833721cb8cf2936e5d166c257a',1,'irc::channel']]],
   ['channel_5fbegin',['channel_begin',['../classirc_1_1session.html#a1a9ee9fbad62c7021a2957d6c908c954',1,'irc::session']]],
   ['channel_5fend',['channel_end',['../classirc_1_1session.html#a7e7bfe6f07ea470c8fe2224f70789edf',1,'irc::session']]],
-  ['command',['command',['../structirc_1_1message.html#a7290a74ec598ff2530555ff57c27cabf',1,'irc::message::command()'],['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cb',1,'irc::command()']]],
+  ['command',['command',['../structirc_1_1message.html#a7290a74ec598ff2530555ff57c27cabf',1,'irc::message::command()'],['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cb',1,'irc::command()'],['../namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07',1,'irc::ctcp::command()']]],
   ['connect_5fon_5fchannel_5fmessage',['connect_on_channel_message',['../classirc_1_1user.html#a45ee16da7ffd9dc6e7a2d890b67f7613',1,'irc::user']]],
   ['connect_5fon_5fchannel_5fpart',['connect_on_channel_part',['../classirc_1_1channel.html#a45f3bfeca917076d3004b40af9a3603e',1,'irc::channel']]],
   ['connect_5fon_5fconnect',['connect_on_connect',['../classirc_1_1connection.html#af4910b55cf79cc895c593a3a4a43daff',1,'irc::connection']]],
@@ -24,6 +24,7 @@ var searchData=
   ['connect_5fon_5fuser_5fjoin',['connect_on_user_join',['../classirc_1_1channel.html#aeed061f011b256c1f3bc8d5bf73ccba0',1,'irc::channel']]],
   ['connect_5fon_5fuser_5fnotice',['connect_on_user_notice',['../classirc_1_1session.html#afad03f931b6faf28eee9cdb8a7f7e4ef',1,'irc::session']]],
   ['connect_5fon_5fuser_5fpart',['connect_on_user_part',['../classirc_1_1channel.html#a0ce3355fbe22385bc30ba02adefba090',1,'irc::channel']]],
+  ['connection',['connection',['../classirc_1_1connection.html#a5d86830133fc084284a9d8c522692283',1,'irc::connection']]],
   ['connection',['connection',['../classirc_1_1connection.html',1,'irc']]],
-  ['connection',['connection',['../classirc_1_1connection.html#a5d86830133fc084284a9d8c522692283',1,'irc::connection']]]
+  ['ctcp_5fmax',['ctcp_max',['../namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a7540e8f86cf18ea5a1f6e71ceb3363b0',1,'irc::ctcp']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kick',['kick',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cbaf175e09ccd29c70d6cfd9181256da4a7',1,'irc']]]
+  ['join',['join',['../namespaceirc.html#a4e619872a4d4ee692677e99e265fb3cba731b886d80d2ea138da54d30f43b2005',1,'irc']]]
 ];

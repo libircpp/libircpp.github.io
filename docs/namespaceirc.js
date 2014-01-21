@@ -1,5 +1,6 @@
 var namespaceirc =
 [
+    [ "ctcp", "namespaceirc_1_1ctcp.html", null ],
     [ "channel", "classirc_1_1channel.html", "classirc_1_1channel" ],
     [ "connection", "classirc_1_1connection.html", "classirc_1_1connection" ],
     [ "message", "structirc_1_1message.html", "structirc_1_1message" ],
