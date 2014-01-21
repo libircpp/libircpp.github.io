@@ -132,14 +132,28 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a50ed320866ddf6cff239ca3b8b7b5b07"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07">command</a> { <br/>
 &#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a334c4a4c42fdb79d7ebc3e73b517e6f8">command::none</a> = 0, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a418c5509e2171d55b0aee5c2ea4442b5">command::action</a>
-, <br/>
-&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a3b11d4ed537ced20e41a9b8a067f5d85">command::dcc</a>
-, <br/>
-&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07ae7efda40b1c94805070cd9bf9638ae27">command::finger</a>
-, <br/>
-&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a177544aa797af6f322f8caa5e80e7f24">command::sed</a>
-, <br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a418c5509e2171d55b0aee5c2ea4442b5">command::action</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a91b5292a50ced3099c0765a99e410f9b">command::clientinfo</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a3b11d4ed537ced20e41a9b8a067f5d85">command::dcc</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07ac5591d1ae27e3d551e823846b4e540e1">command::errmsg</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07ae7efda40b1c94805070cd9bf9638ae27">command::finger</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07adf911f0151f9ef021d410b4be5060972">command::ping</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a177544aa797af6f322f8caa5e80e7f24">command::sed</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a36cd38f49b9afa08222c0dc9ebfe35eb">command::source</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a07cc694b9b3fc636710fa08b6922c42b">command::time</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07ad0c0bc7b1930e34f5faf4666533189a2">command::userinfo</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a2af72f100c356273d46284f6fd1dfc08">command::version</a>, 
+<br/>
 &#160;&#160;<a class="el" href="namespaceirc_1_1ctcp.html#a50ed320866ddf6cff239ca3b8b7b5b07a7540e8f86cf18ea5a1f6e71ceb3363b0">command::ctcp_max</a> = version
 <br/>
  }</td></tr>
@@ -172,29 +186,97 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a418c5509e2171d55b0aee5c2ea4442b5"></a>action</em>&#160;</td><td class="fielddoc">
 <p>Used to simulate "role playing" on IRC. </p>
-<p>An action message looks like the following:</p>
-<p>\001ACTION barfs on the floor.\001</p>
-<p>Some IRC client could display it as:</p>
+<p>An action message looks like the following: </p>
+<pre class="fragment">\001ACTION barfs on the floor.\001
+</pre><p>Some IRC client could display it as:</p>
 <p><b>*</b> &lt;nickname&gt; barfs on the floor. </p>
 </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a91b5292a50ced3099c0765a99e410f9b"></a>clientinfo</em>&#160;</td><td class="fielddoc">
+<p>Dynamic master index of what a client knows. </p>
+<p>This is for client developers use to make it easier to show other client hackers what a certain client knows when it comes to CTCP. The replies should be fairly verbose explaining what CTCP commands are understood, what arguments are expected of what type, and what replies might be expected from the client.</p>
+<p>The query is the word CLIENTINFO in a "privmsg" optionally followed by a colon and one or more specifying words delimited by spaces, where the word CLIENTINFO by itself, </p>
+<pre class="fragment">\001CLIENTINFO\001
+</pre><p>should be replied to by giving a list of known tags (see above in section TAGGED DATA). This is only intended to be read by humans.</p>
+<p>With one argument, the reply should be a description of how to use that tag. With two arguments, a description of how to use that tag's subcommand. And so on. </p>
+</td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a3b11d4ed537ced20e41a9b8a067f5d85"></a>dcc</em>&#160;</td><td class="fielddoc">
-<p>DCC stands for something like "Direct Client Connection". </p>
-<p>CTCP DCC extended data messages are used to negotiate file transfers between clients and to negotiate chat connections over tcp connections between two clients, with no IRC server involved. Connections between clients involve protocols other than the usual IRC protocol. </p>
+<p>Negotiates file transfers and direct tcp chat connections between clients. </p>
+<p>DCC stands for something like "Direct Client Connection". CTCP DCC extended data messages are used to negotiate file transfers between clients and to negotiate chat connections over tcp connections between two clients, with no IRC server involved. Connections between clients involve protocols other than the usual IRC protocol. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07ac5591d1ae27e3d551e823846b4e540e1"></a>errmsg</em>&#160;</td><td class="fielddoc">
+<p>Used when an error needs to be replied with. </p>
+<p>This is used as a reply whenever an unknown query is seen. Also, when used as a query, the reply should echo back the text in the query, together with an indication that no error has happened. Should the query form be used, it is </p>
+<pre class="fragment">\001ERRMSG #\001
+</pre><p>where # is a string containing any character, with the reply </p>
+<pre class="fragment">\001ERRMSG # :#\001
+</pre><p>where the first # is the same string as in the query and the second # a short text notifying the user that no error has occurred.</p>
+<p>A normal ERRMSG reply which is sent when a corrupted query or some corrupted extended data is received, looks like </p>
+<pre class="fragment">\001ERRMSG # :#\001
+</pre><p>where the first # is the the failed query or corrupted extended data and the second # a text explaining what the problem is, like "unknown
+query" or "failed decrypting text". </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07ae7efda40b1c94805070cd9bf9638ae27"></a>finger</em>&#160;</td><td class="fielddoc">
 <p>Returns the user's full name, and idle time. </p>
-<p>This is used to get a user's real name, and perhaps also the idle time of the user (this usage has been obsoleted by enhancements to the IRC protocol. The request is in a "privmsg" and looks like</p>
-<p>\001FINGER\001</p>
-<p>while the reply is in a "notice" and looks like</p>
-<p>\001FINGER :#\001 </p>
+<p>This is used to get a user's real name, and perhaps also the idle time of the user (this usage has been obsoleted by enhancements to the IRC protocol. The request is in a "privmsg" and looks like </p>
+<pre class="fragment">\001FINGER\001
+</pre><p>while the reply is in a "notice" and looks like </p>
+<pre class="fragment">\001FINGER :#\001
+</pre><p>where the # denotes contains information about the users real name, login name at clientmachine and idle time and is of type X-N-AS. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07adf911f0151f9ef021d410b4be5060972"></a>ping</em>&#160;</td><td class="fielddoc">
+<p>Ping is used to measure the time delay between clients on the IRC network. </p>
+<p>A ping query is encoded in a privmsg, and has the form: </p>
+<pre class="fragment">\001PING timestamp\001
+</pre><p>where `timestamp' is the current time encoded in any form the querying client finds convienent. The replying client sends back an identical message inside a notice: </p>
+<pre class="fragment">\001PING timestamp\001
+</pre><p>The querying client can then subtract the recieved timestamp from the current time to obtain the delay between clients over the IRC network. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a177544aa797af6f322f8caa5e80e7f24"></a>sed</em>&#160;</td><td class="fielddoc">
-<p>SED probably stands for something like "Simple Encryption D???". </p>
-<p>It is used by clients to exchange encrypted messages between clients. A message encoded by SED probably looks something like:</p>
-<p>\001SED encrypted-text-goes-here\001 </p>
+<p>Used to send encrypted messages between clients. </p>
+<p>SED probably stands for something like "Simple Encryption D???". It is used by clients to exchange encrypted messages between clients. A message encoded by SED probably looks something like: </p>
+<pre class="fragment">\001SED encrypted-text-goes-here\001</pre> </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a36cd38f49b9afa08222c0dc9ebfe35eb"></a>source</em>&#160;</td><td class="fielddoc">
+<p>Where to obtain a copy of a client. </p>
+<p>This is used to get information about where to get a copy of the client. The request in a "privmsg" is simply </p>
+<pre class="fragment">\001SOURCE\001
+</pre><p>and the reply is zero or more CTCP replies of the form </p>
+<pre class="fragment">\001SOURCE #:#:#\001
+</pre><p>where the first # is the name of an Internet host where the client can be gotten from with anonymous FTP the second # a directory names, and the third # a space separated list of files to be gotten from that directory.</p>
+<p>Using </p>
+<pre class="fragment">X-N-SPC ::= '\000' .. '\037' | '\041' .. '\377' 
+</pre><p>the name of the FTP site is to be given by name like "cs.bu.edu" or "funic.funet.fi".</p>
+<p>The file name field is a directory specification optionally followed by one or more file names, delimited by spaces. If only a directory name is given, all files in that directory should be copied when retrieving the clients source. If some files are given, only those files in that directpry should be copied. Note that the spcification allows for all characters but space in the names, this includes allowing :. Examples are "pub/emacs/irc/" to get all files in directory pub/emacs/irc/, the client should be able to first login as user "ftp" and the give the command "CD pub/emacs/irc/", followed by the command "mget *". (It of course has to take care of binary and prompt mode too). Another example is "/pub/irc Kiwi.5.2.el.Z" in which case a "CD /pub/irc" and "get Kiwi.5.2.el.Z" is what should be done. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a07cc694b9b3fc636710fa08b6922c42b"></a>time</em>&#160;</td><td class="fielddoc">
+<p>Gets the local date and time from other clients. </p>
+<p>Time queries are used to determine what time it is where another user's client is running. This can be useful to determine if someone is probably awake or not, or what timezone they are in. A time query has the form: </p>
+<pre class="fragment">\001TIME\001
+</pre><p>On reciept of such a query in a privmsg, clients should reply with a notice of the form: </p>
+<pre class="fragment">\001TIME :human-readable-time-string\001
+</pre><p>For example: </p>
+<pre class="fragment">\001TIME :Thu Aug 11 22:52:51 1994 CST\001</pre> </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07ad0c0bc7b1930e34f5faf4666533189a2"></a>userinfo</em>&#160;</td><td class="fielddoc">
+<p>A string set by the user (never the client coder). </p>
+<p>This is used to transmit a string which is settable by the user (and never should be set by the client). The query is simply </p>
+<pre class="fragment">\001USERINFO\001
+</pre><p>with the reply </p>
+<pre class="fragment">\001USERINFO :#\001
+</pre><p>where the # is the value of the string the client's user has set. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a2af72f100c356273d46284f6fd1dfc08"></a>version</em>&#160;</td><td class="fielddoc">
+<p>The version and type of the client. </p>
+<p>This is used to get information about the name of the other client and the version of it. The request in a "privmsg" is simply </p>
+<pre class="fragment">\001VERSION\001
+</pre><p>and the reply </p>
+<pre class="fragment">\001VERSION #:#:#\001
+</pre><p>where the first # denotes the name of the client, the second # denotes the version of the client, the third # the enviroment the client is running in.</p>
+<p>Using </p>
+<pre class="fragment">X-N-CLN ::= '\000' .. '\071' | '\073' .. '\377' 
+</pre><p>the client name is a string of type X-N-CLN saying things like "Kiwi" or "ircII", the version saying things like "5.2" or "2.1.5c", the enviroment saying things like "GNU Emacs 18.57.19 under SunOS 4.1.1 on
+Sun SLC" or "Compiled with gcc -ansi under Ultrix 4.0 on VAX-11/730". </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a50ed320866ddf6cff239ca3b8b7b5b07a7540e8f86cf18ea5a1f6e71ceb3363b0"></a>ctcp_max</em>&#160;</td><td class="fielddoc">
-<p>Mask. </p>
+<p>CTCP command mask. </p>
 </td></tr>
 </table>
 
@@ -207,7 +289,7 @@ Enumerations</h2></td></tr>
   <ul>
     <li class="navelem"><a class="el" href="namespaceirc.html">irc</a></li><li class="navelem"><a class="el" href="namespaceirc_1_1ctcp.html">ctcp</a></li>
     <li class="footer">
-    	Generated on Tue Jan 21 2014 12:23:15 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
+    	Generated on Tue Jan 21 2014 13:44:26 for libircpp by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.6
     </li>
   </ul>
 </div>
